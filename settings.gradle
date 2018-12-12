@@ -1,0 +1,1 @@
+include ':app', ':grocery-api-1.0.0', ':aws-android-sdk-apigateway-core-2.9.0', ':aws-android-sdk-core-2.9.0', ':gson-2.2.4'

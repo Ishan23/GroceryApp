@@ -1,0 +1,46 @@
+{
+  "UserAgent": "MobileHub/1.0",
+  "Version": "1.0",
+  "CredentialsProvider": {
+    "CognitoIdentity": {
+      "Default": {
+        "PoolId": "us-east-1:6a9f20b0-c567-491d-b3c9-3450dfa1a00b",
+        "Region": "us-east-1"
+      }
+    }
+  },
+  "IdentityManager": {
+    "Default": {}
+  },
+  "CognitoUserPool": {
+    "Default": {
+      "PoolId": "us-east-1_qakaY1cee",
+      "AppClientId": "1ot6742ql66d04in3o4rmutpi4",
+      "AppClientSecret": "h9c70slp2o74vlkvh55dm9v8bd45v7eqdp6u2sooogdt8tgbe2q",
+      "Region": "us-east-1"
+    }
+  },
+  "S3TransferUtility": {
+    "Default": {
+      "Bucket": "groceryassist-userfiles-mobilehub-835991679",
+      "Region": "us-east-1"
+    }
+  },
+  "PinpointAnalytics": {
+    "Default": {
+      "AppId": "dec9169f5bf642e5be7c776a0139a2cc",
+      "Region": "us-east-1"
+    }
+  },
+  "PinpointTargeting": {
+    "Default": {
+      "Region": "us-east-1"
+    }
+  },
+  "UserFileManager": {
+    "Default": {
+      "Bucket": "groceryassist-userfiles-mobilehub-835991679",
+      "Region": "us-east-1"
+    }
+  }
+}
